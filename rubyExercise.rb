@@ -83,6 +83,12 @@ def amount_to_coins(amt)
   end
   puts "#{arr}"
 end
+
+def uniqCharacter(str)
+  arr = str.split('')
+  arr = arr.uniq
+  puts arr.join('')
+end
 #palindrome('nurses run')
 #string_order('webmaster')
 #str_capitalize("aanya is a good girl")
@@ -92,4 +98,5 @@ end
 #type_func(12.3)
 #second_small_large([33,5,21,99,6])
 # factor_of_number(81)
-amount_to_coins(46)
+#amount_to_coins(46)
+uniqCharacter('thequickbrownfoxjumpsoverthelazydog')
